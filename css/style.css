@@ -1,0 +1,126 @@
+/****** General ***********/
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+:root {
+    --main-color: #0065FC;
+    --main-bg-color: #F2F2F2;
+    --filter-bg-color: #DEEBFF;
+}
+
+.fa-solid {
+    color: var(--main-color);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.mainContainer {
+    width: 100%; 
+    max-width: 1440px;  /* 1400px ??? */
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+
+.sectionTitle {
+    margin: 0;
+    font-size: 22px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.card img {
+    object-fit: cover;
+}
+
+.cardTitle  {
+    font-size: 16px;
+}
+
+.euro {
+    font-weight: 700;
+}
+
+.neutralStar {
+    color: var(--main-bg-color)
+}
+
+/****** Hebergements And Populaires ***********/
+.hebergementsAndPopulaires {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hebergementsAndPopulaires section {
+    background-color: var(--main-bg-color);
+    border-radius: 20px;
+    padding: 35px;
+    box-sizing: border-box;
+}
+
+/****** Hebergements ***********/
+.hebergements {
+    width: 65%;
+}
+
+/****** Populaires ***********/
+.populaires {
+    width: 31%;
+}
+
+.populairesTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.populairesCards .card {
+    display: flex;
+    margin-top: 33px;
+}
+
+.populairesCards img {
+    width: 37%;
+    height: 134px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.populairesCards .cardContent {
+    width: 63%;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.populairesCards .cardTitle {
+    margin-top: 11px;
+    margin-bottom: 4px;
+}
+
+.populairesCards .cardSubtitle {
+    margin: 0;
+}
+
+.populairesCards .cardRating {
+    margin-bottom: 7px;
+}
+
+/****** Media queries ***********/
+@media (max-width: 991.98px) {
+    .hebergementsAndPopulaires {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 575.98px) {
+
+}
