@@ -117,12 +117,8 @@ body {
 }
 
 /****** Media queries ***********/
-@media (max-width: 991.98px) {
+@media (max-width: 1024px) {
     .hebergementsAndPopulaires {
         flex-direction: column;
     }
-}
-
-@media (max-width: 575.98px) {
-
 }
