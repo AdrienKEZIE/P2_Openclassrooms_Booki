@@ -19,7 +19,7 @@ body {
 }
 
 .main-container {
-    width: 100%; 
+    width: 100%;
     max-width: 1440px;
     padding: 0 50px;
     box-sizing: border-box;
@@ -41,7 +41,7 @@ body {
     object-fit: cover;
 }
 
-.card-title  {
+.card-title {
     font-size: 16px;
 }
 
@@ -153,5 +153,5 @@ body {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-
+    /* ... */
 }
