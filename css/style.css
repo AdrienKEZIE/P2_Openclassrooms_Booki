@@ -88,14 +88,14 @@ body {
 }
 
 .populaires-cards img {
-    width: 30%;
+    width: 33%;
     height: 134px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
 
 .populaires-cards .card-content {
-    width: 70%;
+    width: 67%;
     padding-left: 15px;
     display: flex;
     flex-direction: column;
