@@ -9,6 +9,25 @@
     --filter-bg-color: #DEEBFF;
 }
 
+.entete{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 3em;
+    margin-top: 1em;
+}
+
+.hebergement_nav{
+   padding: 3em;
+}
+.hebergement_nav: :active{
+    border-top: 1px solid;
+}
+
+.activite_nav{
+    padding: 3em;
+}
+
 .fa-solid {
     color: var(--main-color);
 }
@@ -56,6 +75,11 @@ a {
 
 .neutral-star {
     color: var(--main-bg-color)
+}
+
+/** Hebergement à Marseil **/
+.hebergement-title{
+    margin: 0;
 }
 
 /****** Hebergements And Populaires ***********/
