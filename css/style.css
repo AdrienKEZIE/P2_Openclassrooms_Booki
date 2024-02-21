@@ -20,7 +20,7 @@
 .hebergement_nav{
    padding: 3em;
 }
-.hebergement_nav: :active{
+.hebergement_nav: active{
     border-top: 1px solid;
 }
 
@@ -79,8 +79,9 @@ a {
 
 /** Hebergement à Marseil **/
 .hebergement-title{
-    margin: 0;
+    top: 2px;
 }
+
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
@@ -98,6 +99,20 @@ a {
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+}
+.hebergement-card img{
+   width: 230px;
+   Height: 124px;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+}
+
+.hebergement-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+    row-gap: 20px;
 }
 
 /****** Populaires ***********/
