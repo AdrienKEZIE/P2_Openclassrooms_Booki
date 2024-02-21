@@ -77,12 +77,6 @@ a {
     color: var(--main-bg-color)
 }
 
-/** Hebergement à Marseil **/
-.hebergement-title{
-    top: 2px;
-}
-
-
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
