@@ -222,31 +222,7 @@ button[type="submit"]:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap; /*
-    .filter-element{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .first-element{
-        display: flex;
-        flex-direction: row;
-        margin-bottom: 30px;
-    }
-    .second-element{
-        display: flex;
-        flex-direction: row;
-        margin-bottom: 10px;
-    }
-    .first-element>.filter:first-child{
-        display: flex;
-        margin-right: 40px;
-    }
-    .second-element>.filter:first-child{
-        display: flex;
-        margin-right: 40px;
-    }
-*/
+    flex-wrap: wrap;
     row-gap: 20px;
 }
 
