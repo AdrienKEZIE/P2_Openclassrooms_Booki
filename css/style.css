@@ -208,6 +208,7 @@ button[type="submit"]:hover{
 }
 
 /****** Hebergements ***********/
+
 .hebergements {
     width: 65%;
 }
@@ -350,8 +351,6 @@ footer {
     
 }
 
-/* Le code ci-dessous correspond à la version responsive uniquement */
-
 /****** Media queries ***********/
 
 /* Medium devices (tablets, less/equal than 1024px) */
@@ -387,10 +386,16 @@ footer {
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
-    .activite-article img{
+/*********** activite ************/
+
+    .activites-card a {
         height: 270px;
-        width: 180px;
+    }
+
+    .activites-card .card img {
+        height: 200px;
     } 
+
     footer {
     
         margin-top: 30px;
@@ -401,6 +406,9 @@ footer {
 /* Small devices (phones, less than 768px) */
 
 @media (max-width: 767.98px) {
+
+    /****************  Header ***************/
+
     .entete{
         display: flex;
         flex-direction: column;
@@ -413,6 +421,9 @@ footer {
         display: flex;
         align-content:center;
     }
+
+/**************** Filtre et Recherche ****************/
+
     .FilterBar{
         display: flex;
         flex-direction: column;
@@ -422,9 +433,14 @@ footer {
         margin: 10px 15px 10px 0px;
         width: 162px;
     }
+
+/********** Hebergement et Populaire *************/
+
     .hebergements-and-populaires {
         flex-direction: column-reverse;
     }
+
+    /********** Populaire ***********/
 
     .populaires {
         width: 100%;
@@ -449,14 +465,42 @@ footer {
         font-size: 13px;
     }
 
-    .activite-element{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+    /*********  Activite  *********/
+
+    .activite h2 {
+        font-size: 22px;
+        margin-bottom: 30px;
     }
-    .activite-article img{
-        height: 200px;
+    
+    .activite {
+        margin: 0;     
+    }
+    
+    .activite-card {
         width: 100%;
+        gap: 15px;
+        padding: 0;
+        margin: 0;
+        flex-direction: column;
+    }
+    
+    .activite .card {
+        width: 100%;
+        height: 200px;
+        padding: 0;
+    }
+        
+    .activite-card .card img {
+        height: 141px
+    }
+    
+    .activite-card a {
+        width: 100%;
+        height: auto;
+    }
+    
+    .activite img {
+        height: 141px;
     }
     
     /***************    Footer    ***************/
