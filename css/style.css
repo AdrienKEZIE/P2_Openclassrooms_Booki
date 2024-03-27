@@ -110,7 +110,7 @@ li{
 /*** Search ***/
 .searchs{
     display: flex;
-    margin: 25px 25px 10px 0px;
+    margin: 25px 0px 10px 0px;
 }
 
 .fa-location-dot{
@@ -125,6 +125,9 @@ input[type="search"]{
     padding: 15px;
     margin: 0;
     border: 2px var(--main-bg-color) solid;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
 }
 
 button[type="submit"]{
@@ -161,7 +164,6 @@ button[type="submit"]:hover{
     border-radius: 25px;
     padding: 0px 15px;
     height: 50px;
-    align-items: center ;
     background-color: white;
     font-weight: bold;
     font-size: 17px;
