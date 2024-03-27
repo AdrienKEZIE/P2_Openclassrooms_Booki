@@ -17,7 +17,6 @@
 body {
     display: flex;
     justify-content: center;
-    flex-direction: column;
 }
 
 .main-container {
@@ -25,7 +24,6 @@ body {
     max-width: 1440px;
     padding: 0 50px;
     box-sizing: border-box;
-    margin: auto;
 }
 
 a {
@@ -104,6 +102,7 @@ li{
     display: flex;
     margin-top: 8px;
     margin-bottom: 1.5em;
+    flex-direction: column;
 }
 
 /*** Search and Filter ***/
@@ -111,7 +110,7 @@ li{
 /*** Search ***/
 .searchs{
     display: flex;
-    margin: 25px 25px 25px 0px;
+    margin: 25px 25px 10px 0px;
 }
 
 .fa-location-dot{
@@ -152,7 +151,7 @@ button[type="submit"]:hover{
     flex-wrap: wrap;
     font-size: 17px;
     font-weight: bold;
-    margin-top: 35px;
+    margin-top: 25px;
     align-items: center;
     gap: 15px;
 }
@@ -183,7 +182,7 @@ button[type="submit"]:hover{
 .FootLine{
     display: flex;
     flex-direction: row;
-    /*align-items: baseline;*/
+    margin-top: 10px;
 }
 
 .footline-text{
@@ -223,7 +222,31 @@ button[type="submit"]:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap; 
+    flex-wrap: wrap; /*
+    .filter-element{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .first-element{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 30px;
+    }
+    .second-element{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 10px;
+    }
+    .first-element>.filter:first-child{
+        display: flex;
+        margin-right: 40px;
+    }
+    .second-element>.filter:first-child{
+        display: flex;
+        margin-right: 40px;
+    }
+*/
     row-gap: 20px;
 }
 
@@ -355,15 +378,8 @@ footer {
 
 /****** Media queries ***********/
 
-@media (max-width: 3000px) {
-    footer {
-        display: flex;
-        justify-content: center;
-
-    }
-}
-
 /* Medium devices (tablets, less/equal than 1024px) */
+
 @media (max-width: 1024px) {
     .hebergements-and-populaires {
         flex-direction: column;
@@ -407,6 +423,7 @@ footer {
 }
 
 /* Small devices (phones, less than 768px) */
+
 @media (max-width: 767.98px) {
     .entete{
         display: flex;
@@ -424,29 +441,7 @@ footer {
         display: flex;
         flex-direction: column;
     }
-    .filter-element{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .first-element{
-        display: flex;
-        flex-direction: row;
-        margin-bottom: 30px;
-    }
-    .second-element{
-        display: flex;
-        flex-direction: row;
-        margin-bottom: 10px;
-    }
-    .first-element>.filter:first-child{
-        display: flex;
-        margin-right: 40px;
-    }
-    .second-element>.filter:first-child{
-        display: flex;
-        margin-right: 40px;
-    }
+
     .filter{
         margin: 10px 15px 10px 0px;
         width: 162px;
